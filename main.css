@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: url(./img/pocket-aces.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid red;
+    margin-top: 100px;
+    box-shadow: 3px 3px 3px rgb(140, 140, 140);
+}
+
+.resultado{
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px rgb(140, 140, 140);
+    border-radius: 20px;
+    width: 80px;
+    max-width: 100%;
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(50deg,rgb(176, 176, 176),red);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(124, 124, 124);
+    margin: 0 auto;
+}
+h1{
+    color: red;
+    text-shadow: 3px 3px 3px white;
+}
+button{
+    width: 150px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+    transition: 0.5s;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.dado1,.dado2,.dado3,.dado4,.dado5,.dado6{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    
+    box-shadow: 2px 2px 2px 4px red;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    
+}
+.dado1{
+    background-image: url(./img/dados-caras-desenho.jpeg);
+}
+.dado2{
+    background-image: url(./img/dados-caras-desenho2.jpeg);
+}
+.dado3{
+    background-image: url(./img/dados-caras-desenho3.jpeg);
+}
+.dado4{
+    background-image: url(./img/dados-caras-desenho4.jpeg);
+}
+.dado5{
+    background-image: url(./img/dados-caras-desenho5.jpeg);
+}
+.dado6{
+    background-image: url(./img/dados-caras-desenho6.jpeg);
+}
